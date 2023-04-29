@@ -118,7 +118,7 @@ a {
 }
 
 .section.three {
-    height: 50vh;
+    height: 40vh;
     flex-direction: column;
     justify-content: center;
     background-color: #E5E7EB;
@@ -137,4 +137,42 @@ a {
     font-size: 24px;
     font-weight: 900;
     color: #1f2937;
+}
+
+.section.four {
+    height: 15vh;
+    justify-content: center;
+    align-content: center;
+    padding: 100px 200px;
+}
+
+.signup {
+    flex: 1;
+    padding: 40px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #3882F6;
+    border-radius: 10px;
+}
+
+.heading {
+    font-weight: 900; 
+    color: #F9FAF8;
+    font-size: 24px;
+}
+
+.text {
+    font-size: 20px;
+    color: #F9FAF8;
+}
+
+.signup > button {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 800; 
+    background-color: #3882F6;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 8px 40px;
 }
