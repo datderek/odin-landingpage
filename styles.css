@@ -89,6 +89,30 @@ a {
 .section.two {
     height: 50vh;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
+    padding: 20px 300px;
+}
+
+.section.two > h2 {
+    font-size: 36px;
+    color: #1F2937
+}
+
+.items {
+    display: flex;
+    gap: 30px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 155px;
+    text-align: center;
+}
+
+.item > p {
+    font-size: 18px;
+    color: dimgray;
 }
