@@ -10,9 +10,18 @@ ul {
     padding: 0;
 }
 
+h1 {
+    padding: 0;
+    margin: 0;
+}
+
+a,
+#secondary {
+    color: #E5E7EB;
+}
+
 a {
     text-decoration: none;
-    color: #E5E7EB;
 }
 
 .header {
@@ -22,14 +31,64 @@ a {
     justify-content: space-between;
 }
 
+#logo,
+#main {
+    font-weight: 900; 
+    color: #F9FAF8;  
+}
+
 #logo {
     font-size: 24px;
     font-weight: 900;
-    color: #F9FAF8;
 }
 
 .links {
     font-size: 18px;
     display: flex;
     gap: 25px;
+}
+
+.section {
+    display: flex;
+}
+
+.section.one {
+    gap: 50px;
+    background-color: #1F2937;
+    height: 50vh;
+    padding: 20px 300px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#main {
+    font-size: 48px;
+}
+
+#secondary {
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.section.one button {
+    font-size: 18px;
+    color: #F9FAF8;
+    font-weight: 800; 
+    background-color: #3882F6;
+    align-self: flex-start;
+    border: none;
+    border-radius: 10px;
+    padding: 8px 40px;
+}
+
+.section.two {
+    height: 50vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
